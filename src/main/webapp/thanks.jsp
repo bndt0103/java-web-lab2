@@ -42,7 +42,7 @@
 
         <p class="return-text">To enter another survey, click on the Back button in your browser or the Return button shown below.</p>
 
-        <form action="emailList" method="get">
+        <form action="survey" method="get">
             <input type="hidden" name="action" value="join">
             <input type="submit" value="Return" id="return">
         </form>

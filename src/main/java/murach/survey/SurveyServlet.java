@@ -1,4 +1,4 @@
-package murach.email;
+package murach.survey;
 
 import java.io.IOException;
 import jakarta.servlet.ServletException;
@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import murach.business.User;
 import murach.business.Survey;
 
-public class EmailListServlet extends HttpServlet {
+public class SurveyServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request,
